@@ -62,6 +62,7 @@ In "In [9]" cell, I perform perspective transform on the lane lines.
 The source and destination points are:
 
 WARP_SOURCE =      [(267, 713), (589, 461), (707, 460), (1152, 712)]
+
 WARP_DESTINATION = [(300, 720), (300, 0),   (900, 0),   (900, 720)]
 
 I applied the results bellow after perspective transform:
