@@ -99,5 +99,5 @@ Here's a [link to my video result](./project_video_output.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+I have tuned many parameters including edge detection thresholds (s chanel, x/ y/ manitude/ gradient), centroild finding (number of pixels), lane detection (search window width and height). These parameters work well for this video and other similar diving conditions (lightness, road colors, road width, camera relative position to the lane). We may need to recalibrate these parameters when the driving condition changes (diffent weather/ road), or train a Machine Learning to adapt the parameters to images.
 
