@@ -51,6 +51,7 @@ In "In [5]" cell, I apply the "PERPECTIVE_TRANSFORM_MATRIX" to the "test_1.jpg" 
 ![alt text][image2]
 
 ####2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
+
 In "In [7]" cell, I used a combination of color and gradient thresholds to generate a binary image. I thresholded the image on s channel, gradient in x direction, griadient in y direction, gradient manitute and gradient angle.  I then crop the image to the proportion of the lanelines. Here's an example of my output for this step.
 
 ![alt text][image3]
